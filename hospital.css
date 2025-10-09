@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 15px 15px;
+}
+
+.logo {
+    display: flex;
+    padding-left: 30px;
+    gap: 4px;
+}
+
+.logo i{
+    padding-top: 2px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo h2{
+    padding-top: 18px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+    padding-right: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+
+header nav a:hover{
+    background-color: white;
+    transition: 0.3secs ease;
+    cursor: pointer;
+}
+
+.index-section{
+    background: url(hospital\ building\ .jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+    color: white;
+}
+
+.hero-text h1{
+    padding: 16px 16px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero-text p{
+    padding: 5px 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.hero-text .btn{
+    padding: 6px 6px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero-text .btn:hover{
+    background-color: white;
+    transition: 0.3secs ease;
+}
