@@ -291,3 +291,156 @@ footer p{
     padding-top: 10px;
     font-size: 14px;
 }
+
+
+
+/*services*/
+.service-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px 15px;
+}
+
+.service-logo {
+    display: flex;
+    padding-left: 30px;
+    gap: 4px;
+}
+
+.service-logo i{
+    padding-top: 2px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.service-logo h2{
+    padding-top: 18px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #003366;
+}
+
+.service-logo h2 span{
+    color: #007bff;
+}
+
+.service-header nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+    padding-right: 10px;
+}
+
+.service-header nav a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: #003366;
+}
+
+.service-header nav a:hover{
+    background-color:  #007bff;
+    transition: 0.3secs ease;
+    cursor: pointer;
+}
+
+.service-section{
+    background-color: #007bff;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+
+.service h1{
+    color: white;
+    padding: 7px 7px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.service p{
+    font-size: medium;
+    padding: 8px 8px;
+}
+
+.card-box{
+ display: grid;
+ gap: 20px;
+ padding: 20px ;
+ max-width: 1000px;
+ margin: 0 auto;
+ text-align: center;
+ display: grid;
+   grid-template-columns: 2fr 2fr;
+    align-items: center;
+ justify-content: center;
+}
+
+
+.card-box .btn{
+    background-color: #007bff;
+    color:white;
+    text-decoration: none;
+    padding: 5px 5px;
+    border: none;
+}
+
+.card-box .btn:hover{
+    background-color: #0056b3;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 15px;
+     background-color: white;
+     margin: 20px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card img{
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    object-position: center;
+}
+
+.card h2{
+    color: #003366;
+}
+
+.card p{
+    color: #333333;
+}
+
+.service-text p{
+   font-size: x-large;
+   font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.service-text .text-btn{
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px;
+    margin-bottom: 6px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.service-text .text-btn:hover{
+    background-color: #004494;
+}
