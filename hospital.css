@@ -67,8 +67,9 @@ header nav a:hover{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    padding-top: 250px;
-    color: white;
+    padding-top: 170px;
+    color: #002d72;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
 .hero-text h1{
@@ -81,6 +82,7 @@ header nav a:hover{
     padding: 5px 5px;
     font-size: large;
     font-weight: bold;
+    color: white;
 }
 
 
