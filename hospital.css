@@ -67,7 +67,7 @@ header nav a:hover{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    padding-top: 170px;
+    padding-top: 150px;
     color: #002d72;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
@@ -83,6 +83,7 @@ header nav a:hover{
     font-size: large;
     font-weight: bold;
     color: white;
+    font-weight: bold;
 }
 
 
@@ -512,3 +513,123 @@ h3{
  .primary-btn:hover{
     background-color: #004494;
  }
+
+
+ /*appointment section*/
+ .appointment-section{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+ }
+
+ .appointment-header{
+    background-color: #004a99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+ }
+
+ .appointment-logo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    gap: 4px;
+ }
+
+ .appointment-logo i{
+    padding-top: 2px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.appointment-logo h2{
+    padding-top: 18px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.appointment-links{
+    list-style: none;
+    display: flex;
+    gap: 9px;
+    margin: 0;
+}
+
+.appointment-links a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.appointment-links a:hover{
+    color: #00aeef;
+}
+
+.appointments{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.appointments h1{
+    color: #004a99;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.appointments p{
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.form-container{
+ background: #ffffff;
+ max-width: 500px;
+ margin: 0 auto;
+ padding: 30px;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #004a99;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.appointment-btn{
+    background-color: #00aeef;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.appointment-btn:hover{
+    background-color: #004a99;
+}
+
+.contact-info{
+    margin-top: 40px;
+    color: #004a99;
+    font-weight: bold;
+}
