@@ -634,6 +634,10 @@ form textarea {
     font-weight: bold;
 }
 
+.appointment-footer{
+    background-color: #004a99;
+}
+
 
 /*contact*/
 .contact{
